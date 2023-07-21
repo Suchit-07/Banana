@@ -8,7 +8,7 @@ from gtts import gTTS
 from tempfile import TemporaryFile
 import playsound
 
-key = "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"
+key = "FIXME"
 
 openai.api_key = key
 
@@ -18,7 +18,7 @@ base_model = Resnet50_Arc_loss()
 keyword = HotwordDetector(
     hotword="banana",
     model = base_model,
-    reference_file='/Users/suchitvemula/Desktop/Coding/Voice_Assistant/banana_ref.json',
+    reference_file='banana_ref.json',
     threshold=0.65,
     relaxation_time=2
 )

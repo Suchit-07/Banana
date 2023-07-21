@@ -6,7 +6,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from search import Search
 
-os.environ["OPENAI_API_KEY"] ='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'
+os.environ["OPENAI_API_KEY"] ='FIXME'
 
 class AI:
     def __init__(self):
